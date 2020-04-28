@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/id"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="ID"/>
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nama"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Nama"/>
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/paket"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Paket"/>
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/paket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layanan"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Layanan"/>
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/layanan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/jumlah"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Jumlah Cucian"/>
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/jumlah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tgl_selesai"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Tanggal Selesai"/>
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/tgl_selesai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/harga"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Harga"/>
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tambahkan"
+        android:layout_below="@+id/harga"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/btn_tambah"/>
+    <Button
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Ubah"
+        android:layout_below="@+id/btn_tambah"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/btn_ubah"/>
+    <Button
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Hapus"
+        android:layout_below="@+id/btn_ubah"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/btn_hapus"/>
+    <Button
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Tampilkan Semua"
+        android:layout_below="@+id/btn_hapus"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/btn_semua"/>
+</RelativeLayout>
